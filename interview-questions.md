@@ -8,19 +8,29 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 1. What is the virtual DOM in React?
 
-Your answer:
+Your answer: means Document Object Model, represent the State that is being use.
 
-Researched answer:
+Researched answer: visual representation of the code
 
 2. Ruby has an implicit return. What does that mean?
 
-Your answer:
+Your answer: it is the "automatic" return of the method that was expressed.
 
-Researched answer:
+<!-- example def add_numbers(a, b)
+  a + b 
+end -->
+
+Researched answer: allows a method or block to be automaticaly return the value of the last expression.
 
 3. Compare and contrast JavaScript and Ruby. What are three things they have in common and what are three differences?
 
-Your answer:
+Your answer: Ruby use "methods" and Java use "Function"
+            Ruby use hash # to call in the parameters and Java use () and {}
+            Ruby keywords like def.
+
+            Both are Object-Oriented Program
+            Dynamic Type
+            Functions for closure.
 
 Researched answer:
 
