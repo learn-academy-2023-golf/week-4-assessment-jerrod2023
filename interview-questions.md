@@ -25,12 +25,16 @@ Researched answer: allows a method or block to be automaticaly return the value 
 3. Compare and contrast JavaScript and Ruby. What are three things they have in common and what are three differences?
 
 Your answer: Ruby use "methods" and Java use "Function"
-            Ruby use hash # to call in the parameters and Java use () and {}
-            Ruby keywords like def.
+            1: Ruby use hash # to call in the parameters and Java use () and {} aka C-styling
+            Ruby keywords like "def" and "end"
+            2: JS is mostly use for front-end
+              and Ruby use for back-end.
+            3: JS has function-level scope(limited function in which they can be define)
+              and Ruby support multi-threading.
 
-            Both are Object-Oriented Program
-            Dynamic Type
-            Functions for closure.
+            1: Both are Object-Oriented Program (can be use to manipulate objects)
+            2: Both are Dynamically Type (allows more flexibility when coding)
+            3: Both are interpreted languages (can be reliable for debugging and web development)
 
 Researched answer:
 

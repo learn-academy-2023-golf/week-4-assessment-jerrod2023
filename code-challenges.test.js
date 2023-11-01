@@ -28,6 +28,29 @@ const colors2 = ["chartreuse", "indigo", "periwinkle", "ochre", "aquamarine", "s
 
 // b) Create the function that makes the test pass.
 
+test('removes first item and shuffles the array', () => {
+  // Arrange
+  const inputArray = [1, 2, 3, 4, 5]
+
+  // Act
+  const resultArray = removeFirstAndShuffle([...inputArray]) // Make a copy to avoid mutating the original array
+
+  // Assert
+  expect(resultArray.length).toBe(inputArray.length - 1) // The result array should have one less element
+  expect(resultArray).not.toContain(inputArray[0]) // The first element should be removed
+  expect(resultArray).toEqual(expect.arrayContaining(inputArray.slice(1))) // All other elements should be present
+})
+
+test('example with provided variable', () => {
+  // Arrange
+  const exampleArray = [10, 20, 30, 40, 50]
+
+  // Act
+  const resultArray = removeFirstAndShuffle([...exampleArray])
+
+  // Assert
+  expect(resultArray).not.toContain(10); // The first element (10) should be removed
+})
 // Pseudo code:
 
 // --------------------2) Create a function that takes in an object that contains up votes and down votes and returns the end tally.
